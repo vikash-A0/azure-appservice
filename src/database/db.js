@@ -6,7 +6,10 @@ const sequelize = new Sequelize(
     'welcome@123', //password
     {
         host: 'localhost',
-        dialect: 'postgres'
+        dialect: 'postgres',
+        dialectOptions:{
+            ssl:true
+        },
     }
 )
 
