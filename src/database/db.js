@@ -5,7 +5,7 @@ const sequelize = new Sequelize(
     'amadis_dbuser@cloudcadi-db-dev', // username
     'uR33sUXM', //password
     {
-        host: 'localhost',
+        host: 'cloudcadi-db-dev.postgres.database.azure.com',
         dialect: 'postgres',
         dialectOptions:{
             ssl:true
