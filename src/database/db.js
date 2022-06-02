@@ -1,9 +1,9 @@
 const Sequelize = require('sequelize');
 
 const sequelize = new Sequelize(
-    'Azure_app_service_data',//database name
-    'postgres', // username
-    'welcome@123', //password
+    'postgres',//database name
+    'amadis_dbuser@cloudcadi-db-dev', // username
+    'uR33sUXM', //password
     {
         host: 'localhost',
         dialect: 'postgres',
